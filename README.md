@@ -18,6 +18,10 @@ npm remove react-native-rss-parser
 ```sh
 npm install
 ```
+4. You may need to build the types for this package, run this if react can't find the pacakge.
+```sh
+npm i --save-dev @types/react-native-rss-parser
+```
 
 ## Usage example
 See the original package for instructions: https://github.com/jameslawler/react-native-rss-parser
